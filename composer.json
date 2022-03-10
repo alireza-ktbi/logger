@@ -1,0 +1,24 @@
+{
+  "name": "alireza/logger",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Alireza\\Logger\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "alireza ketabi",
+      "email": "alirezaketabi.h@gmail.com"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/alireza-ktbi/db-manager.git"
+    }
+  ],
+  "require": {
+    "alireza/db-manager": "^1.1"
+  }
+}
